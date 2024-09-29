@@ -1,4 +1,4 @@
-package com.devamatre.appsuite.hbase;
+package com.rslakra.appsuite.hbase;
 
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.hbase.HBaseConfiguration;

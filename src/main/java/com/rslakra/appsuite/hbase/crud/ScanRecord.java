@@ -1,6 +1,6 @@
-package com.devamatre.appsuite.hbase.crud;
+package com.rslakra.appsuite.hbase.crud;
 
-import com.devamatre.appsuite.hbase.HBaseUtil;
+import com.rslakra.appsuite.hbase.HBaseUtil;
 import org.apache.hadoop.hbase.Cell;
 import org.apache.hadoop.hbase.CellUtil;
 import org.apache.hadoop.hbase.TableName;
