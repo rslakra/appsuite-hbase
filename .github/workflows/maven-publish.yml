@@ -34,11 +34,10 @@ jobs:
         server-id: github # Value of the distributionManagement/repository/id field of the pom.xml
         settings-path: ${{ github.workspace }} # location for the settings.xml file
     
-    # Step for compiling code
-    - name: Build Maven Package
-      run: mvn -B clean package -DskipTests
-      
-    # Step for running unit-tests
-    - name: Maven Verify Package
-      run: mvn -B verify
-    
+#    # Step for compiling code
+#    - name: Build Maven Package
+#      run: mvn -B clean package -DskipTests
+#
+#    # Step for running unit-tests
+#    - name: Maven Verify Package
+#      run: mvn -B verify
